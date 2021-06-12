@@ -22,6 +22,7 @@ https://user-images.githubusercontent.com/36716639/121764988-83bac180-cb0d-11eb-
 A joystick was also included to provide effects for the keyano. The joystick's Y coordinate is sent from the Arduino to the Max code, and this coordinate determines the cutoff frequency of the low-pass filter placed over all keys in the keyano. This effect leads to a sweep-like sound over the played notes, which provides a cool effect for a sustained chord.
 <br />
 https://user-images.githubusercontent.com/36716639/121765038-d0060180-cb0d-11eb-8407-be1453b4390c.mov
+<br />
 Below is a video of my using the keyano for a cover of the song lowkey by NIKI. In this video, I'm using the left hand to play the chords in the first three rows, and the right hand to play an accompanying melody, demonstrating the use of columns for harmony and horizontal movement for melody.
 <br />
 https://youtu.be/FlsNx80XAxQ
