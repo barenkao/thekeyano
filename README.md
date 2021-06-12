@@ -6,6 +6,8 @@ The fundamental concept of the keyano is to allow notes to be played both horizo
 <br />
 The following video demonstrates each note played in "sequential" order, which allows you to observe how the rows are ordered so that notes are repeated.
 <br />
+https://user-images.githubusercontent.com/36716639/121764541-57517600-cb0a-11eb-8a5c-24946ec6bdfc.mov
+<br />
 The vertical ordering of the rows allows chords to be constructed easily, a trait not so easily found in the piano. Similar to how its viewed in sheet music, chords can be played vertically, while melodies will often be played horizontally minus the occasional switching of rows.
 <br />
 Because the keyano only contains 7 notes of the major scale, the rotary encoder was included in order to change the tonal center of the entire keyano, effectively transposing the keyboard into all 12 different keys. The minimum value of the encoder is 0, C Major, and the maximum value is 11, B Major. Rotating the rotary encoder clockwises transposes the keyano up by a half step per turn, while turning it counterclockwise transposes it down by a half step. Q needs to be pressed in order to activate transposing.
