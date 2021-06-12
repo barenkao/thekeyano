@@ -17,6 +17,7 @@ The vertical ordering of the rows allows chords to be constructed easily, a trai
 Because the keyano only contains 7 notes of the major scale, the rotary encoder was included in order to change the tonal center of the entire keyano, effectively transposing the keyboard into all 12 different keys. The minimum value of the encoder is 0, C Major, and the maximum value is 11, B Major. Rotating the rotary encoder clockwises transposes the keyano up by a half step per turn, while turning it counterclockwise transposes it down by a half step. Q needs to be pressed in order to activate transposing.
 <br />
 Below is a use of the rotary encoder to transpose the keyano up a whole step for the iconic Whitney Houston final chorus
+<br />
 https://user-images.githubusercontent.com/36716639/121764988-83bac180-cb0d-11eb-8cc2-ec3d7d8a9f5b.mov
 <br />
 A joystick was also included to provide effects for the keyano. The joystick's Y coordinate is sent from the Arduino to the Max code, and this coordinate determines the cutoff frequency of the low-pass filter placed over all keys in the keyano. This effect leads to a sweep-like sound over the played notes, which provides a cool effect for a sustained chord.
