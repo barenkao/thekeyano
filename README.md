@@ -10,10 +10,10 @@ The vertical ordering of the rows allows chords to be constructed easily, a trai
 <br />
 Because the keyano only contains 7 notes of the major scale, the rotary encoder was included in order to change the tonal center of the entire keyano, effectively transposing the keyboard into all 12 different keys. The minimum value of the encoder is 0, C Major, and the maximum value is 11, B Major. Rotating the rotary encoder clockwises transposes the keyano up by a half step per turn, while turning it counterclockwise transposes it down by a half step. Q needs to be pressed in order to activate transposing.
 <br />
-A joystick was also included to provide effects for the keyano. The joystick's Y coordinate is sent from the Arduino to the Max code, and these coordinates
-The name of your instrument
-Your name
-A description of the instrument, describing what it does, how it sounds, what inspired it, and how to play it.  Feel free to include a narrative about how you made it, what discoveries you made, what you learned along the way, etc.
+A joystick was also included to provide effects for the keyano. The joystick's Y coordinate is sent from the Arduino to the Max code, and this coordinate determines the cutoff frequency of the low-pass filter placed over all keys in the keyano. This effect leads to a sweep-like sound over the played notes, which provides a cool effect for a sustained chord.
+<br />
+Below is a video of my using the keyano for a cover of the song lowkey by NIKI. In this video, I'm using the left hand to play the chords in the first three rows, and the right hand to play an accompanying melody, demonstrating the use of columns for harmony and horizontal movement for melody.
+<br />
 Video of your performance (if you performed live in class, you can excerpt from the class recording or create another video
 Images of the instrument up-close, and (if you want) photos of the instrument in-progress.
 Max code (as a linked separate file -- best as a raw text file containing the copy-compressed Max code) and any instructions needed (liberal commenting is a nice gesture to posterity)
